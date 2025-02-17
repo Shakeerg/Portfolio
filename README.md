@@ -5,7 +5,7 @@ Welcome to my Portfolio repository! This project showcases my work, including va
 ## Demo
 
 You can view my live portfolio here:  
-[Portfolio Link](https://github.com/Shakeerg/Portfolio)L)   
+[Portfolio Link](https://github.com/Shakeerg/Portfolio))   
 
 
 ## Features
