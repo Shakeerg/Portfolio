@@ -29,7 +29,7 @@ const Work = ({isDarkMode}) => {
       transition={{delay: 0.7, duration: 0.5}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
        Welcome to my web development portfolio! Explore a collection of projects
-       showcasing my expertise in front-end development.</motion.p>
+       showcasing my expertise in Full Stack development.</motion.p>
 
 
        <motion.div

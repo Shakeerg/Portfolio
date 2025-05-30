@@ -80,8 +80,8 @@ export const assets = {
 // exported the work data and it will display the work card
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Trendifiy project',
+        description: 'Shopping Website',
         bgImage: '/work-1.png',
     },
     {
@@ -103,8 +103,8 @@ export const workData = [
 
 // Display the services data
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.web_icon, title: 'Web design', description: 'Shopping e-commerce Website collabrated with my team members', link: 'https://github.com/Mukulkms/trendify' },
+    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Crypto Crash – Real-Time Multiplayer Betting Game...', link: 'https://github.com/Shakeerg/crypto-crash-backend' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]

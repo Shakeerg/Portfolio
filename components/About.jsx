@@ -43,7 +43,9 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay:0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                Hi, I'm Shakeer Gittola, a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React.js.
+                Hi, I'm Shakeer Gittola, a passionate Full Stack Developer skilled in Mern Stack technologies.
+                I specialize in creating dynamic and responsive web applications using React, Node.js, and MongoDB.
+                I have a strong foundation in web development, with experience in building responsive and user-friendly applications.
                  As a fresher, I focus on building responsive, user-friendly interfaces with modern tools like Tailwind CSS and Bootstrap.
                   I love problem-solving, optimizing performance, and enhancing user experiences through intuitive design. 
                   Always eager to learn, I’m excited to collaborate on innovative projects and grow in a dynamic environment. 

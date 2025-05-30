@@ -27,14 +27,15 @@ const header = ({}) => {
       initial={{y:-20, opacity: 0}}
       whileInView={{y:0,  opacity: 1}}
       transition={{duration: 0.8, delay:0.5}} 
-      className='text-3xl sm:text-6xl lg:text lg:text-[66px] font-Ovo'>Frontend web developer</motion.h1>
+      className='text-3xl sm:text-6xl lg:text lg:text-[66px] font-Ovo'>Full Stack developer</motion.h1>
 
     <motion.p
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 0.8, delay:0.7 }}
     className='max-w-2xl mx-auto font-Ovo'>
-    Hi, I'm Shakeer Gittola, a passionate Frontend Developer eager to create intuitive and visually appealing web experiences.
+    Hi, I'm Shakeer Gittola, a passionate Full Stack Developer in mern stack technologies.
+    I specialize in creating dynamic and responsive web applications using React, Node.js, and MongoDB.
     As a fresher, I specialize in building responsive and interactive user interfaces using modern technologies like HTML, CSS, JavaScript, and React.
     I'm always learning and exploring new tools to enhance my skills and bring creative ideas to life.
     I'm excited to collaborate on projects that push the boundaries of web design and development!
