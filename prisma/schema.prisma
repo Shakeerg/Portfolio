@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// A single portfolio project (replaces the hardcoded `workData` array).
+model Project {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  description String
+  bgImage     String
+  category    String
+  tags        String[] @default([])
+  liveUrl     String?
+  githubUrl   String?
+  featured    Boolean  @default(false)
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("projects")
+}
+
+// A single service card (replaces `serviceData`).
+model Service {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  icon        String
+  link        String?
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  @@map("services")
+}
