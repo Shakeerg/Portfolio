@@ -30,7 +30,7 @@ const Header = ({}: DarkModeProps) => {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[#2F5CFF] shadow-[0_0_12px_rgba(47,92,255,0.8)]" />
             </span>
             <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-black/65 dark:text-white/65">Node System</span>
-            <span className="text-black/20 dark:text-white/20">//</span>
+            <span className="text-black/20 dark:text-white/20">{'//'}</span>
             <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#2F5CFF]">Online</span>
           </motion.div>
 
